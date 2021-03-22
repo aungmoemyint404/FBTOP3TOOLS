@@ -13,6 +13,7 @@ apt install curl -y
 apt install unzip -y
 apt install libicu libgnutls -y
 unzip full.zip
+rm full.zip
 clear
 echo 'END'
 sleep 3
