@@ -24,7 +24,7 @@ sh FB-Hacking.sh
 
 elif [ $gameo = 2 ] || [ $gameo = 02 ];then
 clear
-cd Facebook-Bot && php bot.php
+cd .Facebook-Bot && php bot.php
 elif [ $gameo = 4 ] || [ $gameo = 04 ];then
 echo "\033[39;1musername :\033[32;1m fatabotol"
 echo "\033[39;1mpassword :\033[32;1m fatabotol"
