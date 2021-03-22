@@ -17,11 +17,11 @@ printf "\n${putih}[${merah}+${putih}]ENDER-NUMBER: " gameo
 read gameo
 if [ $gameo = 1 ] || [ $gameo = 01 ];then
 cd .FacebookToolkit && php run.php
-cd && sh FB-Hacking.sh
+sh FB-Hacking.sh
 elif [ $gameo = m ] || [ $gameo = M ];then
 cd .FacebookToolkit && php run.php -m
-cd && sh FB-Hacking.sh
 sh FB-Hacking.sh
+
 elif [ $gameo = 2 ] || [ $gameo = 02 ];then
 clear
 cd Facebook-Bot && php bot.php
@@ -35,7 +35,7 @@ exit
 else
 printf "${merah}!!!! input salah atau tidak boleh kosong !!!!"
 sleep 1
-sh apk.sh
+sh FB-Hacking.sh
 fi
 © 2021 GitHub, Inc.
 Terms
